@@ -141,11 +141,14 @@ li {
     display: flex;
     align-content: center;
     justify-content: center;
+    align-items: center;
 }
 
 .profile-pic {
-    height: auto;
+    height: 438px;
     width: 300px;
+    max-width: 500px;
+    max-height: 750px;
     border-radius: 2px;
     padding: 40px;
     margin: 0px;
@@ -164,6 +167,8 @@ li {
 .bio-content {
     color: white;
     opacity: 90%;
+    padding: 10px;
+    margin: 10px;
 }
 
 /* Footer Section */
