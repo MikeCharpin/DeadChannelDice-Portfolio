@@ -8,128 +8,128 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700;800&display=swap" rel="stylesheet">
-    <title>Portfolio</title>
+<script src="https://kit.fontawesome.com/9b32cf2992.js" crossorigin="anonymous"></script>    
+
+<title>Portfolio</title>
 </head>
 <body>
     <section class="hero">
         <nav>
             <div>LOGO</div>
-            <ul>
-                <li class="header-links">Projects</li>
-                <li class="header-links">Patents</li>
-                <li class="header-links">About Me</li>
-                <li class="header-links">Contact</li>
+            <ul class="nav-menu">
+                <li class="header-links"><a href="#projects">Projects</a></li>
+                <li class="header-links"><a href="#experience">Experience</a></li>
+                <li class="header-links"><a href="#about-me">About Me</a></li>
+                <li class="header-links"><a href="#contact">Contact</a></li>
                 <li class="header-links">Resume</li>
             </ul>
+            <button class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </button>
         </nav>
 
         <div class="hero-text">
             <p class="hero-name">Mike Charpin</p>
             <p class="hero-subtitle">Industrial Designer to Web Developer </p>
             <p class="bio-blurb">Hi I'm an Industrial Designer in the process of transitioning from the world of hardware to software.</p>
+            <button class="button"><a href="#contact">Contact</a></button>
         </div>
     </section>
 
-    <section class="project-section">
+    <section class="project-section" id="projects">
         <div class="section-title">Featured Projects</div>
-        <div class="project-content">
-            <div class="project-group-container">
-                <h1 class="project-group-title">Web Development</h1>
-                <div class="project-card">
-                    <h3>Pratum Landscaping</h3>
+
+        <div class="all-projects">
+
+            <div class="featured-project-content">
+                <div class="project-group-container">
+                    <h1 class="project-group-title">Web Development</h1>
+                    <div class="project-card">
+                        <h3>Pratum Landscaping</h3>
+                    </div>
+                    <div class="project-card">
+                        <h3>JKN Retouching</h3>
+                    </div>
+                    <div class="project-card">
+                        <h3>Dead Channel (web)</h3>
+                    </div>
                 </div>
-                <div class="project-card">
-                    <h3>JKN Retouching</h3>
-                </div>
-                <!-- <div class="project-card">
-                    <h3>Wintermute App</h3>
-                </div> -->
-                <div class="project-card">
-                    <h3>Dead Channel (web)</h3>
+
+                <div class="project-group-container">
+                    <h1 class="project-group-title">Industrial Design</h1>
+                    <div class="project-card">
+                        <h3>Dead Channel (physical)</h3>
+                    </div>
+                    <div class="project-card">
+                        <h3>Proteus Motion</h3>
+                    </div>
+                    <div class="project-card">
+                        <h3>Zebra Technology</h3>
+                    </div>
+                    <div class="project-card">
+                        <h3>Miniature World</h3>
+                    </div>
+                    <div class="project-card">
+                        <h3>Personal Projects</h3>
+                    </div>
                 </div>
             </div>
 
-            <div class="project-group-container">
-                <h1 class="project-group-title">Industrial Design</h1>
-                <div class="project-card">
-                    <h3>Dead Channel (physical)</h3>
-                </div>
-                <div class="project-card">
-                    <h3>Proteus Motion</h3>
-                </div>
-                <div class="project-card">
-                    <h3>Zebra Technology</h3>
-                </div>
-                <div class="project-card">
-                    <h3>Miniature World</h3>
-                </div>
-                <div class="project-card">
-                    <h3>Personal Projects</h3>
-                </div>
-            </div>
         </div>
-
-        <section class="other-projects">
-
-
-
-        </section>
-
-        <section class="patents-section">
-            <div class="section-title">Patents</div>
-            <div class="patetent-content">
-                <h2>Patent Name</h2>
-                <h3>Date Issued</h3>
-                <div>Image from Patent as linl</div>
-                <div>Brief summary of my contributions</div>
-            </div>
-
 
     </section>
 
-    <section class="experience-section">
+    <section class="other-projects-section">
+
+        <div class="other-projects">
+            <div class="section-title">Other Projects</div>
+    </div>
+
+    </section>
+
+    <section class="experience-section" id="experience">
         <div class="section-title">Experience</div>
-        <div class="experience-timeline"></div>
+        <div class="experience-timeline">
 
-        <div class="experience-year">
-            <h2>2022 - Current</h2>
-            <h3>Miniature World - Project Manager</h3>
-            <div class="miniature-world-experience">
-                <p class="experience-content">My first summer internship was with Kaleidoscope Design cunsultancy, my primary client was Motorola Solutions. The proejct was to conceptualize a barcode scanner for the luxury retail enviroment.</p>
+            <div class="experience-year">
+                <h2>2022 - Current</h2>
+                <h3>Miniature World - Project Manager</h3>
+                <div class="miniature-world-experience">
+                    <p class="experience-content">My first summer internship was with Kaleidoscope Design cunsultancy, my primary client was Motorola Solutions. The proejct was to conceptualize a barcode scanner for the luxury retail enviroment.</p>
+                </div>
             </div>
-        </div>
 
-        <div class="experience-year">
-            <h2>2020 - 2022</h2>
-            <h3>Dead Channel - Founder</h3>
-            <div class="dead-channel-experience">
-                <p class="experience-content">My first summer internship was with Kaleidoscope Design cunsultancy, my primary client was Motorola Solutions. The proejct was to conceptualize a barcode scanner for the luxury retail enviroment.</p>
+            <div class="experience-year">
+                <h2>2020 - 2022</h2>
+                <h3>Dead Channel - Founder</h3>
+                <div class="dead-channel-experience">
+                    <p class="experience-content">My first summer internship was with Kaleidoscope Design cunsultancy, my primary client was Motorola Solutions. The proejct was to conceptualize a barcode scanner for the luxury retail enviroment.</p>
+                </div>
             </div>
-        </div>
 
-        <div class="experience-year">
-            <h2>2017 - 2020</h2>
-            <h3>Proteus Motion - Senior Industrial Designer</h3>
-            <div class="proteus-experience">
-                <p class="experience-content">My first summer internship was with Kaleidoscope Design cunsultancy, my primary client was Motorola Solutions. The proejct was to conceptualize a barcode scanner for the luxury retail enviroment.</p>
+            <div class="experience-year">
+                <h2>2017 - 2020</h2>
+                <h3>Proteus Motion - Senior Industrial Designer</h3>
+                <div class="proteus-experience">
+                    <p class="experience-content">My first summer internship was with Kaleidoscope Design cunsultancy, my primary client was Motorola Solutions. The proejct was to conceptualize a barcode scanner for the luxury retail enviroment.</p>
+                </div>
             </div>
-        </div>
 
-        <div class="experience-year">
-            <h2>2015 - 2016</h2>
-            <h3>Zebra Technologies - Junior Industrial Designer</h3>
-            <div class="zebra-experience">
-                <p class="experience-content">My first summer internship was with Kaleidoscope Design cunsultancy, my primary client was Motorola Solutions. The proejct was to conceptualize a barcode scanner for the luxury retail enviroment.</p>
+            <div class="experience-year">
+                <h2>2015 - 2016</h2>
+                <h3>Zebra Technologies - Junior Industrial Designer</h3>
+                <div class="zebra-experience">
+                    <p class="experience-content">My first summer internship was with Kaleidoscope Design cunsultancy, my primary client was Motorola Solutions. The proejct was to conceptualize a barcode scanner for the luxury retail enviroment.</p>
+                </div>
             </div>
-        </div>
 
-        <div class="experience-year">
-            <h2>2013 - 2015</h2>
-            <h3>Ops-Core - Draftsman</h3>
-            <div class="ops-core-experience">
-                <p class="experience-content">My first summer internship was with Kaleidoscope Design cunsultancy, my primary client was Motorola Solutions. The proejct was to conceptualize a barcode scanner for the luxury retail enviroment.</p>
+            <div class="experience-year">
+                <h2>2013 - 2015</h2>
+                <h3>Ops-Core - Draftsman</h3>
+                <div class="ops-core-experience">
+                    <p class="experience-content">My first summer internship was with Kaleidoscope Design cunsultancy, my primary client was Motorola Solutions. The proejct was to conceptualize a barcode scanner for the luxury retail enviroment.</p>
+                </div>
             </div>
-        </div>
 
             <div class="experience-year">
                 <h2>2009 - 2013</h2>
@@ -141,14 +141,24 @@
 
         </div>
 
+
     </section>
+
+    <section class="patents-section">
+        <div class="section-title">Patents</div>
+        <div class="patetent-content">
+            <h2>Patent Name</h2>
+            <h3>Date Issued</h3>
+            <div>Image from Patent as linl</div>
+            <div>Brief summary of my contributions</div>
+        </div>
 
    
 
 
     </section>
 
-    <section class="about-section">
+    <section class="about-section" id="about-me">
         <div class="section-title">About</div>
         <div class="about-content">
             <img class="profile-pic" src="./Images/web-assets/Charpin - Profile Pic - 2022 - 500px.jpg" alt="an image of my handsome face"> 
@@ -163,6 +173,27 @@
                         
             </div>
         </div>
+    </section>
+
+    <section class="contact-me-section" id="contact">
+        <div class="section-title">Contact me</div>
+        <div class="contact-container">
+            
+            <form>
+                
+                <div class="form-grid">
+                    <input type="text" name="name" id="name" placeholder="Name" class="form-element"/>
+                    <input type="email" name="email" id="email" placeholder="Email" class="form-element" />
+                    <textarea name="message" id="message" placeholder="Message" class="form-area"></textarea>
+                </div>
+                <div class="right-align">
+                    <input type="submit" value="Send message" class="button">
+                </div>
+            </form>
+
+        </div>
+
+
     </section>
 
     <footer></footer>

@@ -6,6 +6,7 @@
     padding: 0;
     margin: 0;
     color: #49b4aa;
+    box-sizing: border-box;
 }
 
 h1 {
@@ -17,6 +18,46 @@ section {
     background-color: #0d1d1e;
     border: solid black 1px;
 }
+
+.button {
+    appearance: none;
+    border: solid #b79b7e 2px;
+    outline: none;
+    background: none;
+
+    display: inline-block;
+    background-color: none;
+    padding: 16px;
+    border-radius: 8px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+}
+
+.hamburger {
+    display: none;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .hamburger {
+        display: block;
+        border: 0;
+        background-color: transparent;
+        color:rgb(228, 183, 34);
+        font-size: 30px;
+    } 
+
+    .nav-menu {
+        display: none;
+    }
+}
+
+
 
 /* Hero Section Formatting */
 
@@ -90,7 +131,22 @@ li {
 }
 
 /* Project Section */
-.project-content {
+
+.project-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.all-projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.featured-project-content {
     display: flex;
     justify-content: space-around;
     align-content: center;
@@ -113,6 +169,24 @@ li {
     padding: 10px;
     margin: 10px;
     background-color: antiquewhite;
+}
+
+/* Experience Section */
+
+.experience-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.experience-timeline {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    max-width: 700px;
 }
 
 
@@ -170,6 +244,59 @@ li {
     padding: 10px;
     margin: 10px;
 }
+
+
+/* Contact Me Section */
+
+
+.contact-container {
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+form {
+    display: block;
+    margin: 0 auto;
+    max-width:680px;
+}
+
+.form-grid {
+    display: grid;
+    grid-gap: 16px;
+    grid-template-columns: repeat(2, 1fr);  
+    margin-bottom: 16px;  
+}
+
+
+
+.form-element, .form-area {
+    appearance: none;
+    border: none;
+    outline:none;
+    background: none;
+
+    display: block;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 8px;
+
+    padding:20px;
+    margin: 20px;
+    font-size: 20px;
+    color: #313131;
+
+}
+
+.form-area {
+    grid-column: 1/ -1;
+}
+
+.right-align {
+    text-align: right;
+}
+
+
+
 
 /* Footer Section */
 
