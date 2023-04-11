@@ -14,7 +14,7 @@ h1 {
 }
 
 section {
-    min-height: 500px;
+    /* min-height: 500px; */
     background-color: #0d1d1e;
     border: solid black 1px;
 }
@@ -281,7 +281,7 @@ form {
     border-radius: 8px;
 
     padding:20px;
-    margin: 0 20px;
+    margin: 0 16px 0 0;
     font-size: 20px;
     color: #313131;
 
@@ -293,6 +293,7 @@ form {
 
 .right-align {
     text-align: right;
+    margin-top: 16px;
 }
 
 
