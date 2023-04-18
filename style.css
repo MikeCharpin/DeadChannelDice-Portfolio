@@ -1,3 +1,17 @@
+:root {
+    --primary: #49b4aa;
+    --secondary: #b79b7e ;
+    --light: #fffefe;
+    --gray: ;
+    --dark: #0d1d1e ;
+    --highlight: ;
+
+    --shadow: 0 1px 3px rgba(255, 255, 255, .9);
+
+}
+
+
+
 /* CSS Reset */
 *, *::before, *::after {
     box-sizing: border-box;
@@ -36,9 +50,9 @@ html, body {
 
 /* General Formatting */
 
-* {
+/* * {
     border: solid red 1px;
-}
+} */
 
 body {
     font-family: 'Poppins', sans-serif;
@@ -67,6 +81,7 @@ section {
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 700;
+    box-shadow: var(--shadow);
 }
 
 a {
