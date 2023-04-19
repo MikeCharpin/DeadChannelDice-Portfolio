@@ -87,6 +87,7 @@ section {
 
 a {
     text-decoration: none;
+    color: var(--primary);
 }
 
 
@@ -213,7 +214,7 @@ li {
 
 .project-card {
     height: 100px;
-    width: 100px;
+    max-width: 100px;
     padding: 10px;
     margin: 10px;
     background-color: antiquewhite;
