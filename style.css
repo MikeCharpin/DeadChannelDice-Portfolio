@@ -74,6 +74,7 @@ section {
     border: solid #b79b7e 2px;
     outline: none;
     background: none;
+    color: var(--primary);
 
     display: inline-block;
     background-color: none;
@@ -129,7 +130,7 @@ li {
         display: block;
         border: 0;
         background-color: transparent;
-        color:rgb(228, 183, 34);
+        color:var(--primary);
         font-size: 30px;
     } 
 
