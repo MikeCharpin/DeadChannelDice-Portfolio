@@ -1,20 +1,71 @@
-/* General Formatting */
+:root {
+    --primary: #49b4aa;
+    --secondary: #b79b7e ;
+    --light: #fffefe;
+    --gray: ;
+    --dark: #0d1d1e ;
+    --highlight: ;
+
+    --shadow: 0 1px 3px rgba(255, 255, 255, .9);
+
+}
+
+
+
+/* CSS Reset */
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
 
 * {
-    border: solid red 1px;
-    font-family: 'Poppins', sans-serif;
-    padding: 0;
     margin: 0;
+  }
+
+html, body {
+    height: 100%;
+  }
+
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+
+  input, button, textarea, select {
+    font: inherit;
+  }
+
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+
+  #root, #__next {
+    isolation: isolate;
+  }
+
+
+/* General Formatting */
+
+/* * {
+    border: solid red 1px;
+} */
+
+body {
+    font-family: 'Poppins', sans-serif;
     color: #49b4aa;
-    box-sizing: border-box;
+    background-color: #0d1d1e;
 }
 
 h1 {
     opacity: 90%;
 }
 
+
 section {
-    background-color: #0d1d1e;
     border: solid black 1px;
 }
 
@@ -31,10 +82,12 @@ section {
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 700;
+    box-shadow: var(--shadow);
 }
 
 a {
     text-decoration: none;
+    color: var(--primary);
 }
 
 
@@ -161,7 +214,7 @@ li {
 
 .project-card {
     height: 100px;
-    width: 100px;
+    max-width: 100px;
     padding: 10px;
     margin: 10px;
     background-color: antiquewhite;
@@ -297,3 +350,7 @@ footer {
     height: 200px;
     background-color: black;
 }
+
+
+
+
