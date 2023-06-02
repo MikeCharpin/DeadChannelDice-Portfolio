@@ -190,16 +190,16 @@ li {
     flex-direction: column;
     justify-content: center;
 }
-.all-projects {
+/* .all-projects {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
     align-items: center;
-}
+} */
 .featured-project-content {
     display: flex;
-    
+    flex-wrap: wrap;
     justify-content: space-around;
     align-content: space-between;
     padding: 20px;
