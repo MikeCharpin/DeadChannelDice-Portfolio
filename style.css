@@ -91,6 +91,16 @@ a {
     color: var(--primary);
 }
 
+.content-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding: 40px;
+    margin: 0px;
+}
+
 
 /* Navbar Section Formatting */
 nav {
@@ -175,21 +185,11 @@ li {
     padding-top: 20px;
 }
 
-.portfolio-selection {
-    display: flex;
-    align-items: center;
-    height: 100px;
-    padding: 0px;
-    margin-top: 16px;
-}
+
 
 /* Project Section */
 
-.project-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
+
 /* .all-projects {
     display: flex;
     flex-direction: column;
@@ -238,6 +238,26 @@ li {
     justify-content: center;
     align-content: center;
     max-width: 700px;
+}
+
+/* Patent Section */
+
+.patent-content {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    width: 70vw
+}
+
+.patent-card {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    border: 1px solid red;
+    min-width: 300px;
+    max-width: 400px;
 }
 
 
