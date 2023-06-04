@@ -4,6 +4,7 @@
     --light: #fffefe;
     --gray: ;
     --dark: #0d1d1e ;
+    --background: #0d1d1e;
     --highlight: ;
 
     --shadow: 0 1px 3px rgba(255, 255, 255, .9);
@@ -245,9 +246,10 @@ li {
 .patent-content {
     display: flex;
     flex-direction: column;
-    align-content: center;
+    align-items: center;
     justify-content: center;
-    width: 70vw
+    width: 70vw;
+    /* border: 1px red solid; */
 }
 
 .patent-card {
@@ -255,11 +257,65 @@ li {
     flex-direction: column;
     align-content: center;
     justify-content: center;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     min-width: 300px;
     max-width: 400px;
 }
 
+.img-box {
+    width: 20rem;
+    height: 5rem;
+    margin: 10px;
+    border-radius: 10px;
+    background: url("./Images/Patent Screen Grabs/400x400/zebra-tc70-accessory-400x400-0x.png");
+    background-size: cover;
+    background-position: center;
+    transition: height 0.5s;
+    text-align: center;
+}
+
+.img-box:nth-child(2) {
+    background: url("./Images/Patent Screen Grabs/400x400/proteus-handle-400x400-01.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.img-box:nth-child(3) {
+    background: url("./Images/Patent Screen Grabs/400x400/proteus-singlehand-attachment-400x400-01.png" );
+    background-size: cover;
+    background-position: center;
+}
+
+
+.img-box:nth-child(4) {
+    background: url("./Images/Patent Screen Grabs/400x400/proteus-system-v3-400x400-01.png");
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.patent-cover {
+    margin: 0.5rem auto;
+    color: var(--background);
+}
+
+.img-box:hover {
+    /* width: 20rem; */
+    height: 20rem;
+    cursor: pointer;
+}
+
+.patent-links {
+    z-index: -1;
+    position: relative;
+}
+
+.img-box:hover .patent-links {
+    z-index: 1;
+    position: relative;
+    transition: z-index 0.3s linear;
+}
 
 /* About Me */
 
