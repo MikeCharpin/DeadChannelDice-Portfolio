@@ -102,6 +102,11 @@ a {
     margin: 0px;
 }
 
+.header-logo {
+    width: 5rem;
+    height: auto;
+    margin: 1rem;
+}
 
 /* Navbar Section Formatting */
 nav {
@@ -301,7 +306,6 @@ li {
 }
 
 .img-box:hover {
-    /* width: 20rem; */
     height: 20rem;
     cursor: pointer;
 }
