@@ -246,6 +246,19 @@ li {
     max-width: 700px;
 }
 
+.experience-year {
+    margin: 2rem;
+}
+
+.experience-year h2 {
+    color: var(--secondary);
+    margin-bottom: .5rem;
+}
+
+.experience-year h3 {
+   
+}
+
 /* Patent Section */
 
 .patent-content {
