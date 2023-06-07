@@ -255,8 +255,9 @@ li {
     margin-bottom: .5rem;
 }
 
-.experience-year h3 {
-   
+.experience-year h2 {
+   text-align: center;
+   opacity: 40%;
 }
 
 /* Patent Section */
