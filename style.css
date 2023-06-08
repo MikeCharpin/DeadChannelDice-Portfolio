@@ -206,9 +206,9 @@ li {
 .featured-project-content {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    align-content: space-between;
-    padding: 20px;
+    justify-content: center;
+    align-content: center;
+    /* padding: 20px; */
 }
 
 /* .project-group-container {
@@ -222,7 +222,8 @@ li {
 
 .project-card {
     height: 100px;
-    min-width: 400px;
+    width: 90vw;
+    max-width: 400px;
     padding: 10px;
     margin: 10px;
     background-color: antiquewhite;
