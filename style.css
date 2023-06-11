@@ -220,6 +220,10 @@ li {
     padding:20px;
 }
 
+#pratum-project {
+    background-image: url(./Images/pratumProjectCard.webp);
+}
+
 .project-card {
     height: 100px;
     width: 90vw;
@@ -227,6 +231,8 @@ li {
     padding: 10px;
     margin: 10px;
     background-color: antiquewhite;
+    color: black;
+    border: 1px solid var(--secondary);
 }
 
 /* Experience Section */
