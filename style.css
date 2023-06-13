@@ -1,7 +1,7 @@
 :root {
     --primary: #49b4aa;
     --secondary: #b79b7e ;
-    --light: #fffefe;
+    --light: #d8d8d8;
     --gray: ;
     --dark: #0d1d1e ;
     --background: #0d1d1e;
@@ -65,6 +65,9 @@ h1 {
     opacity: 90%;
 }
 
+p {
+    color: var(--light);
+}
 
 section {
     border: solid black 1px;
