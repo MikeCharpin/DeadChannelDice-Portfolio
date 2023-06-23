@@ -227,6 +227,10 @@ li {
     background-image: url(./Images/pratumProjectCard.webp);
 }
 
+#rockpaperscissors {
+    background-image: url(./Images/web-assets/rockpaperscissors-projectcard.webp);
+}
+
 .project-card {
     height: 100px;
     width: 90vw;
