@@ -231,6 +231,11 @@ li {
     background-image: url(./Images/web-assets/rockpaperscissors-projectcard.webp);
 }
 
+#pixeldreams {
+    background-image: url(./Images/web-assets/pixeldreams-projectcard.webp);
+    color: white;
+}
+
 .project-card {
     height: 100px;
     width: 90vw;
