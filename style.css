@@ -456,7 +456,30 @@ form {
     margin-top: 16px;
 }
 
+/* Project Pages */
 
+/* .sha-image {
+    width: 1000px;
+    height: auto;
+} */
+
+.sha-image-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-text-content {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 1rem;
+}
+
+.sha-early-handles {
+    display: flex;
+}
 
 
 /* Footer Section */
