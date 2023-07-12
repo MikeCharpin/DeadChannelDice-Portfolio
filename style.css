@@ -465,12 +465,13 @@ form {
 } */
 
 .sha-image-wrapper {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
     margin: 1rem;
+    width: 25rem;
 }
 
 .image-text-content-vert {
@@ -491,7 +492,7 @@ form {
 }
 
 .presentation-content {
-    width: 90%;
+    width: 70%;
     height: 600px;
     overflow: auto;
     margin: 1rem;
@@ -500,6 +501,8 @@ form {
 .double-image-wrapper {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     width: 90%;
     margin: 1rem;
 }
@@ -523,6 +526,10 @@ form {
     align-items: center;
     justify-content: center;
     width: 90%;
+    margin: 1rem;
+}
+
+iframe {
     margin: 1rem;
 }
 
