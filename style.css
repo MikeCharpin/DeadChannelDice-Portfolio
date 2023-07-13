@@ -458,11 +458,11 @@ form {
 
 /* Project Pages */
 
-/* .sha-image {
+.sha-image {
     min-width: none;
-    max-width: 400px;
+    max-width: 30rem;
     height: auto;
-} */
+}
 
 .sha-image-wrapper {
     /* display: flex;
@@ -471,6 +471,7 @@ form {
     justify-content: center;
     align-items: center; */
     margin: 1rem;
+    text-align: center;
     /* width: 25rem; */
 }
 
@@ -537,8 +538,22 @@ form {
     margin: 1rem;
 }
 
-iframe {
+.responsive-iframe {
+    position: relative;
+    overflow: hidden;
+    width: 90%;
+    padding-top: 56.25%;
+}
+
+.responsive-iframe {
     margin: 1rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
 }
 
 /* Footer Section */
