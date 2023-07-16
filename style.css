@@ -492,11 +492,11 @@ form {
 
 .sha-early-handles {
     display: flex;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    /* margin: 1rem; */
+    margin: 1rem;
     max-width: 90%;
 }
 
