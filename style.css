@@ -67,6 +67,7 @@ h1 {
 
 p {
     color: var(--light);
+    font-size: 1.25rem;
 }
 
 section {
