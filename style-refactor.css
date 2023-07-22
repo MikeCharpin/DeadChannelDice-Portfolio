@@ -92,11 +92,12 @@
     width: 30rem;
     height: auto;
     border-radius: 1px;
+    margin: .5rem;
   }
 
   .image-desc {
     font-style: italic;
-    margin: 0.5rem;
+    margin-bottom: 1rem;
   }
 
   .text-block {
