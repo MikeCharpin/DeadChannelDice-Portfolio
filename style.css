@@ -70,8 +70,14 @@ p {
     font-size: 1.25rem;
 }
 
+
+
 section {
     border: solid black 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .button {
@@ -112,10 +118,28 @@ a {
     margin: 1rem;
 }
 
+.text-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    margin: 16px;
+    padding: 16px;
+    max-width: 700px;
+}
+
+.text-content {
+    color: white;
+    opacity: 90%;
+    padding: 10px;
+    margin: 10px;
+}
+
 /* Navbar Section Formatting */
 nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 ul {
@@ -189,7 +213,7 @@ li {
     font-weight: 700;
 }
 
-.bio-blurb {
+.text-blurb {
     max-width: 500px;
     font-size:25px;
     padding-top: 20px;
@@ -207,6 +231,7 @@ li {
     align-content: center;
     align-items: center;
 } */
+
 .featured-project-content {
     display: flex;
     flex-wrap: wrap;
@@ -366,14 +391,12 @@ li {
 
 .section-title {
     padding: 0;
-    margin: 0;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
     color: #b79b7e;
     font-weight: 700;
     font-size: 40px;
-    justify-content:center;
-    align-content:center;
-    display: flex;
-    opacity: 50%;
+    opacity: 70%;
 }
 
 .about-content {
@@ -389,22 +412,7 @@ li {
     padding: 40px;
 }
 
-.bio-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-content: center;
-    margin: 16px;
-    padding: 16px;
-    max-width: 700px;
-}
 
-.bio-content {
-    color: white;
-    opacity: 90%;
-    padding: 10px;
-    margin: 10px;
-}
 
 
 /* Contact Me Section */
@@ -459,21 +467,62 @@ form {
 
 /* Project Pages */
 
+/* Project Header Section */
+
+.project-header-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto ;
+}
+
+.project-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.project-logo {
+    margin: 1rem;
+    border-radius: .1rem;
+}
+
+.project-blurb {
+    font-size: 2rem;
+    text-align: center;
+}
+
+/* .project-content-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding: 40px;
+    margin: 0px;
+} */
+
 .sha-image {
     min-width: none;
     max-width: 30rem;
     height: auto;
 }
 
+.sha-image-hero {
+    min-width: none;
+    max-width: 45rem;
+    height: auto;
+}
+
 .sha-image-wrapper {
-    /* display: flex;
+    display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     justify-content: center;
-    align-items: center; */
-    margin: 1rem;
-    text-align: center;
-    /* width: 25rem; */
+    align-items: center;
+    margin: 2rem;
 }
 
 .image-text-content-vert {
