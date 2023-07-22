@@ -51,6 +51,7 @@
   .content-section {
     display: flex;
     flex-direction: column;
+    flex-wrap: nowrap;
     align-items: center;
     justify-content: center;
   }
@@ -64,16 +65,16 @@
   }
 
   .content-block-wrapper {
-    display: flex;
+    /* display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
-    width: 100%;
+    justify-content: center; */
+    max-width: 80rem;
   }
 
   .content-block {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
     align-items: start;
     justify-content: center;
     margin: 2rem;
