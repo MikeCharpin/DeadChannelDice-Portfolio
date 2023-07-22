@@ -5,10 +5,7 @@
     --gray: ;
     --dark: #0d1d1e ;
     --background: #0d1d1e;
-    --highlight: ;
-
     --shadow: 0 1px 3px rgba(255, 255, 255, .9);
-
 }
 
 
@@ -63,6 +60,13 @@ body {
 
 h1 {
     opacity: 90%;
+}
+
+h4 {
+    margin: 1rem;
+    color: var(--primary);
+    font-size: 24px;
+    font-weight: 700;
 }
 
 p {
@@ -399,7 +403,7 @@ li {
     opacity: 70%;
 }
 
-.about-content {
+.text-content {
     display: flex;
     flex-direction: column;
     align-content: center;
