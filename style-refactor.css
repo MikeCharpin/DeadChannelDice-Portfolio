@@ -48,8 +48,16 @@
     }
 
 
+  .content-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
   .section-title {
-    font-size: 5rem;
+    font-size: 3rem;
+    font-weight: 700;
     margin: 2rem;
     text-align: center;
     color: var(--gold);
@@ -60,6 +68,7 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    width: 100%;
   }
 
   .content-block {
@@ -75,7 +84,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 0 1rem .5rem .5rem;
+    /* margin: 0 1rem .5rem .5rem; */
   }
 
   .content-image {
@@ -92,7 +101,6 @@
   .text-block {
     display: flex;
     flex-direction: column;
-    margin: 0 1rem;
     max-width: 30rem;
 
   }
@@ -107,3 +115,10 @@
   .text-area {
     margin: 1rem;
   }
+
+  .presentation-content {
+    width: 70%;
+    height: 600px;
+    overflow: auto;
+    margin: 1rem;
+}
