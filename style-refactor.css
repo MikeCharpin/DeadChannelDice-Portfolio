@@ -1,0 +1,126 @@
+    /* CSS Reset */
+    *, *::before, *::after {
+    box-sizing: border-box;
+    }
+
+    * {
+    margin: 0;
+    }
+
+    html, body {
+    height: 100%;
+    }
+
+    body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    }
+
+    img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+    }
+
+    input, button, textarea, select {
+    font: inherit;
+    }
+
+    p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+    }
+
+    #root, #__next {
+    isolation: isolate;
+    }
+
+    :root {
+        --blue: #49b4aa;
+        --gold: #b79b7e ;
+        --light: #f0f0f0;
+        --dark: #0d1d1e ;
+        --shadow: 0 1px 3px rgba(255, 255, 255, .9);
+    }
+
+    body {
+        font-family: 'Poppins', sans-serif;
+        color: var(--light);
+        background-color: var(--dark);
+    }
+
+
+  .content-section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .section-title {
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 2rem;
+    text-align: center;
+    color: var(--gold);
+  }
+
+  .content-block-wrapper {
+    /* display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center; */
+    max-width: 80rem;
+  }
+
+  .content-block {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    align-items: start;
+    justify-content: center;
+    margin: 2rem;
+  }
+
+  .image-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* margin: 0 1rem .5rem .5rem; */
+  }
+
+  .content-image {
+    width: 30rem;
+    height: auto;
+    border-radius: 1px;
+    margin: .5rem;
+  }
+
+  .image-desc {
+    font-style: italic;
+    margin-bottom: 1rem;
+  }
+
+  .text-block {
+    display: flex;
+    flex-direction: column;
+    max-width: 30rem;
+
+  }
+
+  .text-block-header {
+    font-size: 2rem;
+    text-align: center;
+    vertical-align: top;
+    color: var(--blue);
+  }
+
+  .text-area {
+    margin: 1rem;
+  }
+
+  .presentation-content {
+    width: 70%;
+    height: 600px;
+    overflow: auto;
+    margin: 1rem;
+}
